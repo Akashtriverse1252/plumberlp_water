@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+#fixed_section {
+  /* padding-top: 30px; */
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+}
+section {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 50px 0;
+}
+.web-container {
+  margin: 0 auto;
+  width: 90%;
+}
+body {
+  background: #fff;
+  color: #000;
+  font-family: "Montserrat";
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.2px;
+  font-family: 400;
+}
+p {
+  font-size: 22px;
+  line-height: 40px;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #c6233f;
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 0px 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  font-weight: bold;
+}
+
+.header {
+  width: 100%;
+}
+.w-90 {
+  width: 90%;
+}
+.footerLeftQouteSection::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10%;
+  width: 120%;
+  height: 100%;
+  background: #6d6e72;
+  z-index: 0;
+}
+.footerLeftQouteSection img {
+  z-index: 1;
+  position: relative;
+}
+.footerCnt_scn span {
+  font-size: 27px;
+  letter-spacing: 1.3px;
+}
+
+.wapper {
+  float: left;
+  margin: 20px auto;
+  width: 100%;
+  border-top: 1px solid #8b8b8b;
+  padding: 25px 0;
+}
+#shadow-host-companion {
+  display: none;
+}
+.copyright p:hover a {
+  color: #c71a41;
+}
+
+.copyright {
+  align-items: center;
+  display: flex;
+  float: none;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.copyright a {
+  color: #000;
+  text-decoration: none;
+}
+
+.copyright p,
+.copyright p a {
+  color: #ffffff6e;
+  font-size: 16px;
+}

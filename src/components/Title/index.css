@@ -1,0 +1,51 @@
+.heading {
+  width: 100%;
+  float: left;
+}
+
+:root {
+  --h2fontSize: 22px;
+}
+.heading {
+  float: left;
+  margin: 0 auto 10px;
+  text-align: center;
+  position: relative;
+  font-weight: 700;
+}
+
+.heading h2 {
+  position: relative;
+}
+
+.heading h1,
+.heading h2 {
+  font-size: 40px;
+  line-height: 54px;
+  margin: 0;
+  padding: 0 !important;
+  font-family: "Montserrat";
+  width: auto;
+  display: inline-block;
+  font-weight: 300;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.heading {
+  margin-bottom: 35px;
+}
+
+.heading .mainHeading {
+  color: #000000b3;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  letter-spacing: 4.5px;
+  line-height: 44px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  width: 100%;
+  float: left;
+  position: relative;
+}

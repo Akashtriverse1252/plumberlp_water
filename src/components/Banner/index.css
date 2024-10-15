@@ -1,0 +1,14 @@
+.formSection {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgb(0 0 0 / 50%);
+  height: 800px;
+  width: 30%;
+  padding: 50px 85px;
+}
+.formSection span.enquiryText {
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 1.3;
+}

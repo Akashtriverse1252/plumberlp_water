@@ -1,0 +1,65 @@
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.header {
+  padding: 30px 0 20px;
+}
+.logo svg {
+  height: auto;
+  width: 230px;
+}
+.logo .fil0 {
+  fill: rgb(38 204 164);
+}
+
+.header_cnt_cntct {
+  display: grid;
+  font-size: 1.85rem;
+  line-height: 1;
+  color: #000000;
+  font-weight: bold;
+}
+.header_cnt_cnt {
+  font-size: 15px;
+  letter-spacing: 3px;
+  line-height: 1.2px;
+  text-transform: uppercase;
+  color: #000000;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header_cnt_cnt::after {
+  content: none;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  background-color: #110f0f;
+}
+.get_connect {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.header_cnt_cnt svg {
+  width: 45px;
+  height: 45px;
+  fill: #fff;
+}
+
+.header_cnt_cnt span {
+  font-size: 35px;
+  letter-spacing: 1.5px;
+}

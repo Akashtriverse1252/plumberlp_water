@@ -1,0 +1,26 @@
+.form ul li select,
+.form ul li input {
+  width: 100%;
+  padding: 14px;
+  margin: 15px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(87, 86, 86);
+}
+.form ul li input::placeholder {
+  color: rgb(87, 86, 86);
+  font-size: 18px;
+  font-weight: 500;
+}
+button.btn {
+  background: rgb(198 26 64);
+  color: #fff;
+  line-height: 60px;
+  font-size: 27px;
+  transition: ease-in 0.3s all;
+}
+
+button.btn:hover {
+  color: rgb(198 26 64);
+  background-color: rgb(187, 187, 187);
+}
