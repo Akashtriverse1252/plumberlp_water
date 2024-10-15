@@ -23,7 +23,7 @@ const index = () => {
   ];
   return (
     <>
-      <WebLayout _class="w-full relative mx-auto ReseveBG">
+      <WebLayout _class="w-full relative mx-auto ReseveBG max-w-screen overflow-hidden">
         <Title>Pledge to Preserve, Be a Water Guardian</Title>
         <div className="w-90 mx-auto">
           <p
