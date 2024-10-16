@@ -7,19 +7,9 @@ import Qoutes from "./components/Qoutes";
 import PleasureReserve from "./components/PleasureReserve";
 import IconSection from "./components/IconSection";
 import ProductSlider from "./components/ProductSlider";
-import Aos from "aos";
 import { Helmet } from "react-helmet";
 
 const Home = () => {
-  useEffect(() => {
-    Aos.init({
-      offset: 200,
-      duration: 600,
-      easing: "ease-in",
-      delay: 100,
-    });
-  }, []); // Only run once when the component mounts
-
   return (
     <>
       <Helmet>
@@ -38,12 +28,14 @@ const Home = () => {
         />
       </Helmet>
       <Header />
-      <Banner />
-      <AboutSection />
-      <PleasureReserve />
-      <Qoutes />
-      <IconSection />
-      <ProductSlider />
+      <main className="flex flex-col">
+        <Banner />
+        {/* <AboutSection /> */}
+        <PleasureReserve />
+        <Qoutes />
+        <IconSection />
+        <ProductSlider />
+      </main>
       <Footer />
     </>
   );

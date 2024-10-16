@@ -46,4 +46,7 @@
   display: flex;
   justify-content: center;
 }
+.footerstn_cnt{
+ justify-content: space-between;
+}
 

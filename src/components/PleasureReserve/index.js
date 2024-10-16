@@ -13,7 +13,7 @@ const index = () => {
     {
       lightColor: "#e9692c",
       color: "#91452e",
-      text: "Each Basin Faucet if used 5 times a day, wastes 50 litres/day which is awhooping <strong>18250</strong> litres/year",
+      text: "Each Basin Faucet if used 5 times a day, wastes 50 litres/day which is a whooping <strong>18250</strong> litres/year",
     },
     {
       lightColor: "#4dbdbe",
@@ -24,20 +24,19 @@ const index = () => {
   return (
     <>
       <WebLayout _class="w-full relative mx-auto ReseveBG max-w-screen overflow-hidden">
-        <Title>Pledge to Preserve, Be a Water Guardian</Title>
-        <div className="w-90 mx-auto">
+        <Title>Pledge to Preserve, Be a Water Guardian.</Title>
+        <div className="w-90  mx-auto flex flex-col">
           <p
-            className="text-center mb-8"
-            data-aos-easing="ease-in"
-            data-aos-once="true"
+            className="text-center mb-10"
             data-aos-duration="600"
+            data-aos-offset="100"
             data-aos="fade-up"
           >
             Water is a precious resource that we’ve taken for granted for far
             too long. It’s time to shift our mindset and take responsibility for
             conserving this vital element. Our water supply is finite and
             diminishing each year, making water conservation a critical
-            responsibility for us all.At Plumber Bathware, we are committed to
+            responsibility for us all. At Plumber Bathware, we are committed to
             making a significant impact by pledging to save 10 billion liters of
             water through your cooperation and support. We have upgraded our
             Basin and Faucets to meet GRIHA/USGBC flow rate standards, ensuring
@@ -46,35 +45,36 @@ const index = () => {
             secure a sustainable future.
           </p>
           <p
-            className="text-center font-semibold w-10/12 mx-auto"
-            data-aos-easing="ease-in"
-            data-aos-once="true"
+            className="text-center font-semibold lg:w-10/12 w-full mx-auto"
             data-aos-duration="600"
+            data-aos-offset="100"
             data-aos="fade-up"
           >
-            Buy our German-made Neoperl aerators, one of the most effective
-            water-saving plumbing parts,and save up to XX litres of water every
-            day. These high-quality aerators significantly reduce the water
+            Our German-made Neoperl aerators, one of the most effective
+            water-saving plumbing parts, and save up to 80% water every day.
+            These high-quality aerators significantly reduce the water
             consumption to almost half.
           </p>
         </div>
         <div className="relative w-full  py-10">
-          <div className=" flex flex-col sm:flex-row items-center whiteStrip justify-between p-4 space-y-4 sm:space-y-0 sm:space-x-4 w-2/3 mx-auto">
+          <div className=" flex flex-col sm:flex-row items-center whiteStrip justify-between p-4 space-y-4 sm:space-y-0 sm:space-x-4  mx-auto">
             {dropData.map((drop, index) => (
               <div
                 key={index}
-                className="relative w-[31%]  group z-10"
-                data-aos-easing="ease-in"
-                data-aos-once="true"
+                className="relative m:w-[31%] w-full  group z-10"
                 data-aos-duration="600"
                 data-aos="fade-up"
               >
                 <WaterDrop color={drop.color} lightColor={drop.lightColor}>
-                  <p
-                    className="text-white text-center opacity-80  leading-tight px-4 font-medium"
-                    style={{ fontSize: "72px" }}
+                  <span
+                    className="text-white text-center opacity-80 text-[72px]  leading-tight tracking-[1.4px] px-4 font-medium"
+                    // style={{
+                    //   fontSize: navigator.userAgent.includes("iPhone")
+                    //     ? "16px"
+                    //     : "72px",
+                    // }}
                     dangerouslySetInnerHTML={{ __html: drop.text }}
-                  ></p>
+                  ></span>
                 </WaterDrop>
               </div>
             ))}

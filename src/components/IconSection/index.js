@@ -13,7 +13,7 @@ const AeratorBenefits = () => {
   const benefits = [
     {
       icon: Icon01,
-      text: "Easy to install without the help of a Plumber",
+      text: "Easy to install without the help of a technician",
     },
     {
       icon: Icon02,
@@ -33,7 +33,7 @@ const AeratorBenefits = () => {
     },
     {
       icon: Icon06,
-      text: "Fully aerated stream at low pressure maintain up to 4LPM",
+      text: "Fully aerated stream at low pressure maintain upto 6 litres per minute",
     },
   ];
 
@@ -42,18 +42,17 @@ const AeratorBenefits = () => {
       <div className=" mx-auto ">
         <Title>The magic of saving with aerators</Title>
         <div
-          className="flex flex-wrap justify-between w-[80%] mx-auto "
-          data-aos-easing="ease-in"
-          data-aos-once="true"
+          className="flex flex-wrap justify-between lg:w-[80%] w-[90%] mx-auto "
           data-aos-duration="600"
-          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos="fade-in"
         >
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="flex flex-col items-center w-[30%] text-center"
+              className="flex flex-col items-center m:w-[30%] xxs:w-1/2 w-full text-center"
             >
-              <div className="w-[80%] mx-auto flex  items-center IconSection flex-col">
+              <div className="lg:w-[80%] w-full mx-auto flex  items-center IconSection flex-col">
                 <img src={benefit.icon} alt="icon3" />
                 <span className="font-medium">{benefit.text}</span>
               </div>

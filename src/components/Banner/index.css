@@ -3,12 +3,36 @@
   top: 0;
   right: 0;
   background: rgb(0 0 0 / 50%);
-  height: 800px;
+  height: 808px;
   width: 30%;
   padding: 50px 85px;
+  align-items: end;
 }
 .formSection span.enquiryText {
   font-size: 20px;
   line-height: 1;
   letter-spacing: 1.3;
+}
+.banner {
+  height: 810px;
+}
+.banner img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.bannerTitle {
+  position: absolute;
+  top: 34%;
+  width: 31%;
+  left: 14%;
+  text-wrap: balance;
+  color: #fff;
+}
+.bannerTitle h1{
+  font-size: 40px;
+  font-weight: 600;
+}
+.bannerTitle p{
+  line-height: 1.3;
 }

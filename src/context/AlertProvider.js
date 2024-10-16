@@ -1,24 +1,23 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState, useContext } from "react";
 
-export const AlertContext = createContext();
+const AlerterContext = createContext();
 
-export const AlertProvider = ({ children }) => {
-  const [errors, setErrors] = useState({});
+export const AlerterProvider = ({ children }) => {
+  const [alert, setAlert] = useState(null);
 
-  const addError = (field, error) => {
-    setErrors((prevErrors) => ({
-      ...prevErrors,
-      [field]: error,
-    }));
+  const showAlert = (type, title, message) => {
+    setAlert({ type, title, message });
   };
 
-  const clearErrors = () => {
-    setErrors({});
+  const hideAlert = () => {
+    setAlert(null);
   };
 
   return (
-    <AlertContext.Provider value={{ errors, addError, clearErrors }}>
+    <AlerterContext.Provider value={{ alert, showAlert, hideAlert }}>
       {children}
-    </AlertContext.Provider>
+    </AlerterContext.Provider>
   );
 };
+
+export const useAlert = () => useContext(AlerterContext);

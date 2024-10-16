@@ -2,6 +2,7 @@
   background-image: url("../../image/thirdSectionImage.webp");
   background-position: top;
   background-size: cover;
+  max-width: 100vw;
 }
 .whiteStrip::after {
   content: "";
@@ -15,4 +16,7 @@
 }
 .whiteStrip p {
   text-wrap: balance;
+}
+.whiteStrip {
+  width: 66%;
 }

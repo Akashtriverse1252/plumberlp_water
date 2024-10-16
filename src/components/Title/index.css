@@ -2,16 +2,12 @@
   width: 100%;
   float: left;
 }
-
-:root {
-  --h2fontSize: 22px;
-}
 .heading {
   float: left;
   margin: 0 auto 10px;
   text-align: center;
   position: relative;
-  font-weight: 700;
+  display: inline-block;
 }
 
 .heading h2 {
@@ -30,7 +26,7 @@
   font-weight: 300;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .heading {

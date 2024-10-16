@@ -9,12 +9,11 @@ const index = () => {
         <Title className="text-[#1385a0]">
           Take the pledge and be a water saviour
         </Title>
-        <div className="w-90 mx-auto">
+        <div className="w-90 mx-auto flex flex-col">
           <p
             className="text-center mb-3"
-            data-aos-easing="ease-in"
-            data-aos-once="true"
             data-aos-duration="600"
+            data-aos-offset="300"
             data-aos="fade-up"
           >
             Water is a precious resource that humans have sometimes taken for
@@ -25,8 +24,7 @@ const index = () => {
           </p>
           <p
             className="text-center"
-            data-aos-easing="ease-in"
-            data-aos-once="true"
+            data-aos-offset="300"
             data-aos-duration="600"
             data-aos="fade-up"
           >
