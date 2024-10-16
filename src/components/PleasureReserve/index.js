@@ -67,7 +67,7 @@ const index = () => {
               >
                 <WaterDrop color={drop.color} lightColor={drop.lightColor}>
                   <span
-                    className="text-white text-center opacity-80 text-[72px]  leading-tight tracking-[1.4px] px-4 font-medium"
+                    className="text-white text-center opacity-80 z-10 text-[72px]  leading-tight tracking-[1.4px] px-4 font-medium"
                     // style={{
                     //   fontSize: navigator.userAgent.includes("iPhone")
                     //     ? "16px"

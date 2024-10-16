@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/save-water-pledge/static/css/main.f83e15fe.css",
-    "main.js": "/save-water-pledge/static/js/main.78d88f33.js",
+    "main.css": "/save-water-pledge/static/css/main.6c08fba4.css",
+    "main.js": "/save-water-pledge/static/js/main.8e305afe.js",
     "static/media/JustLovelySlantedWide.woff": "/save-water-pledge/static/media/JustLovelySlantedWide.e683fa8863a621ba0f5b.woff",
     "static/media/JustLovelySlanted.woff": "/save-water-pledge/static/media/JustLovelySlanted.89b515d2738fce43c385.woff",
     "static/media/JustLovely.woff": "/save-water-pledge/static/media/JustLovely.3f29369d0413b3f5ae78.woff",
@@ -67,11 +67,11 @@
     "static/media/slick.ttf": "/save-water-pledge/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/save-water-pledge/static/media/slick.295183786cd8a1389865.woff",
     "static/media/left-arrow.webp": "/save-water-pledge/static/media/left-arrow.2510992d0680b7d6c49d.2510992d0680b7d6c49d.webp",
-    "main.f83e15fe.css.map": "/save-water-pledge/static/css/main.f83e15fe.css.map",
-    "main.78d88f33.js.map": "/save-water-pledge/static/js/main.78d88f33.js.map"
+    "main.6c08fba4.css.map": "/save-water-pledge/static/css/main.6c08fba4.css.map",
+    "main.8e305afe.js.map": "/save-water-pledge/static/js/main.8e305afe.js.map"
   },
   "entrypoints": [
-    "static/css/main.f83e15fe.css",
-    "static/js/main.78d88f33.js"
+    "static/css/main.6c08fba4.css",
+    "static/js/main.8e305afe.js"
   ]
 }
